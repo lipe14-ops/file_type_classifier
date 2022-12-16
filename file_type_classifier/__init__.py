@@ -1,0 +1,1 @@
+from .main import file_type_classifier
