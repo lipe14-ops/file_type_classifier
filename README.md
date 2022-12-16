@@ -14,8 +14,6 @@ import file_type_classifier
 file_type = file_type_classifier.file_type_classifier("file_without_extention")
 print(file_type)   # output:  png
 ```
-to large files it maybe take a while to indentify.
-
 ## Author:
 <img width='100' height='100' style="border-radius:50%; padding:15px" src="https://avatars.githubusercontent.com/u/78698099?v=4" /></br>
 <a href="https://github.com/lipe14-ops" style='padding: 15px' title="Rocketseat">Filipe Soares :computer:</a>

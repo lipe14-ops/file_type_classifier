@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "file_type_classifier"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["lipe14-ops <filipe.ns1001@gmai.com>"]
 readme = "README.md"

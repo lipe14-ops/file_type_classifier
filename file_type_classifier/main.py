@@ -8,7 +8,7 @@ class FileMask(object):
 
 def file_bytes_reader(file_path: str) -> str:
     with open(file_path, 'rb') as file:
-        file_content = file.read()
+        file_content = file.read(1024)
         return file_content.hex(" ", 1).upper()
     
 FILES_MASKS = [
