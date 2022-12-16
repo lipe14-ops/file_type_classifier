@@ -9,7 +9,7 @@ it's compatible with python3.10+. To install run the command `pip install file_t
 
 ## example
 ```py
-import fileclassifier
+import file_type_classifier
 
 file_type = file_type_classifier.file_type_classifier("file_without_extention")
 print(file_type)   # output:  png
